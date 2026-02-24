@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Angion Systems | Agile IT Solutions</title>
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Outfit:wght@400;600;700&display=swap" rel="stylesheet">
+    <!-- AOS Animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body data-bs-spy="scroll" data-bs-target="#navbar-main">
+
+    <!-- Header / Navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top shadow-sm" id="navbar-main">
+        <div class="container">
+            <a class="navbar-brand d-flex align-items-center" href="#">
+                <img src="img/logo.png" alt="Angion Systems" height="50" class="me-2">
+            </a>
+            <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto align-items-center">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="staffing-services.html">Staffing Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="it-service.html">IT Service</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="industries.html" id="industriesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Industries
+                        </a>
+                        <ul class="dropdown-menu border-0 shadow-sm" aria-labelledby="industriesDropdown">
+                            <li><a class="dropdown-item" href="healthcare.html">Healthcare</a></li>
+                            <li><a class="dropdown-item" href="financial.html">Financial</a></li>
+                            <li><a class="dropdown-item" href="manufacturing.html">Manufacturing</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="industries.html">Explore All</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="careers.html">Careers</a></li>
+                    <li class="nav-item ms-lg-3"><a class="btn btn-primary rounded-pill px-4 shadow-sm" href="contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section position-relative overflow-hidden">
+        <div id="heroCarousel" class="carousel slide carousel-fade h-100" data-bs-ride="carousel">
+            <!-- Carousel Indicators -->
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="0" class="active" aria-current="true"></button>
+                <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="2"></button>
+            </div>
+
+            <div class="carousel-inner h-100">
+                <!-- Slide 1 -->
+                <div class="carousel-item active h-100">
+                    <div class="hero-content-wrapper d-flex align-items-center h-100">
+                        <div class="hero-overlay"></div>
+                        <div class="container position-relative z-1">
+                            <div class="row align-items-center">
+                                <div class="col-lg-6" data-aos="fade-right">
+                                    <h2 class="display-3 fw-bold mb-4 text-white">Agile Solutions to All Your <span class="text-primary-gradient">IT Needs</span></h2>
+                                    <p class="lead mb-5 text-light opacity-75">We provide reliable, innovative, and women-owned IT services tailored for small and medium-sized global enterprises.</p>
+                                    <div class="d-flex gap-3">
+                                        <a href="#services" class="btn btn-primary btn-lg rounded-pill px-5 py-3 shadow">Our Services</a>
+                                        <a href="#about" class="btn btn-outline-light btn-lg rounded-pill px-5 py-3">Learn More</a>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 d-none d-lg-block" data-aos="zoom-in">
+                                    <div class="hero-image-wrapper">
+                                        <div class="glass-container p-4 rounded-4 shadow-lg">
+                                             <img src="https://images.unsplash.com/photo-1551434678-e076c223a692?q=80&w=1470&auto=format&fit=crop" alt="IT Team" class="img-fluid rounded-3 shadow">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Slide 2 -->
+                <div class="carousel-item h-100">
+                    <div class="hero-content-wrapper d-flex align-items-center h-100">
+                        <div class="hero-overlay"></div>
+                        <div class="container position-relative z-1">
+                            <div class="row align-items-center">
+                                <div class="col-lg-6">
+                                    <h2 class="display-3 fw-bold mb-4 text-white">Flexible Processes <span class="text-primary-gradient">Adapted</span> to You</h2>
+                                    <p class="lead mb-5 text-light opacity-75">We respect the uniqueness of your requirements. Our processes are flexible and will adapt to ensure your business goals are met.</p>
+                                    <div class="d-flex gap-3">
+                                        <a href="#about" class="btn btn-primary btn-lg rounded-pill px-5 py-3 shadow">How We Work</a>
+                                        <a href="#contact" class="btn btn-outline-light btn-lg rounded-pill px-5 py-3">Get in Touch</a>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 d-none d-lg-block">
+                                    <div class="hero-image-wrapper">
+                                        <div class="glass-container p-4 rounded-4 shadow-lg">
+                                             <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=1426&auto=format&fit=crop" alt="Strategy" class="img-fluid rounded-3 shadow">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Slide 3 -->
+                <div class="carousel-item h-100">
+                    <div class="hero-content-wrapper d-flex align-items-center h-100">
+                        <div class="hero-overlay"></div>
+                        <div class="container position-relative z-1">
+                            <div class="row align-items-center">
+                                <div class="col-lg-6">
+                                    <h2 class="display-3 fw-bold mb-4 text-white">Valuing Relationships, <span class="text-primary-gradient">Empowering</span> People</h2>
+                                    <p class="lead mb-5 text-light opacity-75">We value our relationship with our staff and you. Our vision is to build an admired institution globally through shared success.</p>
+                                    <div class="d-flex gap-3">
+                                        <a href="#careers" class="btn btn-primary btn-lg rounded-pill px-5 py-3 shadow">Join Our Team</a>
+                                        <a href="#services" class="btn btn-outline-light btn-lg rounded-pill px-5 py-3">View Services</a>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 d-none d-lg-block">
+                                    <div class="hero-image-wrapper">
+                                        <div class="glass-container p-4 rounded-4 shadow-lg">
+                                             <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?q=80&w=1471&auto=format&fit=crop" alt="Partnership" class="img-fluid rounded-3 shadow">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Carousel Controls -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+        <div class="hero-bg-shapes">
+            <div class="shape shape-1"></div>
+            <div class="shape shape-2"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-5 section-padding">
+        <div class="container">
+            <div class="row g-5 align-items-center">
+                <div class="col-lg-6" data-aos="fade-up">
+                    <span class="badge bg-primary-soft text-primary px-3 py-2 rounded-pill mb-3 uppercase tracking-wider">Who We Are</span>
+                    <h2 class="fw-bold mb-4">A Global IT Services Company Focused on <span class="text-primary">Your Success</span></h2>
+                    <p class="text-muted lead mb-4">Angion Systems is a Women-Owned Small Business specialized in serving the IT needs of small and medium-sized companies.</p>
+                    <p class="text-muted mb-4">Our team of highly skilled professionals combine industry best practices and innovation to understand your unique business needs to provide optimal solutions. We help our customers realize the value of their IT investments with a focus on building long term successful partnerships.</p>
+                    <div class="row g-4 mt-2">
+                        <div class="col-md-6">
+                            <div class="d-flex align-items-start gap-3">
+                                <div class="icon-box bg-primary text-white p-2 rounded-3">
+                                    <i class="bi bi-bullseye"></i>
+                                </div>
+                                <div>
+                                    <h5 class="fw-bold mb-1">Our Vision</h5>
+                                    <p class="small text-muted mb-0">To build an institution that is among the most admired globally.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="d-flex align-items-start gap-3">
+                                <div class="icon-box bg-secondary text-white p-2 rounded-3">
+                                    <i class="bi bi-people"></i>
+                                </div>
+                                <div>
+                                    <h5 class="fw-bold mb-1">Empowerment</h5>
+                                    <p class="small text-muted mb-0">Reflecting our values in every employee and business interaction.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6" data-aos="fade-left">
+                    <div class="about-img-group position-relative">
+                        <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?q=80&w=1470&auto=format&fit=crop" alt="Team Work" class="img-fluid rounded-4 shadow-lg w-100">
+                        <div class="experience-card bg-white p-4 shadow-sm rounded-4 position-absolute bottom-0 start-0 m-4" data-aos="fade-up" data-aos-delay="200">
+                            <div class="d-flex align-items-center gap-3">
+                                <span class="display-5 fw-bold text-primary">25+</span>
+                                <div class="text-uppercase small fw-bold tracking-widest text-muted">Years of<br>Expertise</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="bg-light py-5 section-padding">
+        <div class="container py-5">
+            <div class="text-center mb-5" data-aos="fade-up">
+                <span class="badge bg-primary-soft text-primary px-3 py-2 rounded-pill mb-3">Our Expertise</span>
+                <h2 class="fw-bold display-5">What We <span class="text-primary">Deliver</span></h2>
+                <div class="mx-auto bg-primary mt-3" style="width: 60px; height: 4px; border-radius: 2px;"></div>
+            </div>
+            <div class="row g-4">
+                <!-- App Dev -->
+                <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="100">
+                    <div class="service-card p-4 rounded-4 bg-white shadow-sm border-0 h-100 transition-up">
+                        <div class="icon-circle bg-primary-soft text-primary mb-4">
+                            <i class="bi bi-code-square fs-3"></i>
+                        </div>
+                        <h4 class="fw-bold mb-3">App Development</h4>
+                        <p class="text-muted small mb-0">Modernize systems, develop applications faster, and maintain them at lower costs with low risk.</p>
+                    </div>
+                </div>
+                <!-- Quality Assurance -->
+                <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="200">
+                    <div class="service-card p-4 rounded-4 bg-white shadow-sm border-0 h-100 transition-up">
+                        <div class="icon-circle bg-success-soft text-success mb-4">
+                            <i class="bi bi-shield-check fs-3"></i>
+                        </div>
+                        <h4 class="fw-bold mb-3">Quality Assurance</h4>
+                        <p class="text-muted small mb-0">Full range of QA and QC services, quality planning, and benchmark setting for your projects.</p>
+                    </div>
+                </div>
+                <!-- Staffing -->
+                <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="300">
+                    <div class="service-card p-4 rounded-4 bg-white shadow-sm border-0 h-100 transition-up">
+                        <div class="icon-circle bg-info-soft text-info mb-4">
+                            <i class="bi bi-people fs-3"></i>
+                        </div>
+                        <h4 class="fw-bold mb-3">Staffing Services</h4>
+                        <p class="text-muted small mb-0">Agile staffing solutions including staff augmentation, contract to hire, and direct hire.</p>
+                    </div>
+                </div>
+                <!-- IT Consulting -->
+                <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="400">
+                    <div class="service-card p-4 rounded-4 bg-white shadow-sm border-0 h-100 transition-up">
+                        <div class="icon-circle bg-warning-soft text-warning mb-4">
+                            <i class="bi bi-laptop fs-3"></i>
+                        </div>
+                        <h4 class="fw-bold mb-3">IT Consulting</h4>
+                        <p class="text-muted small mb-0">Strategize your IT investments and build long-term successful partnerships with innovation.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Industries Section -->
+    <section id="industries" class="py-5 section-padding">
+        <div class="container py-5">
+            <div class="row align-items-center g-5">
+                <div class="col-lg-5" data-aos="fade-right">
+                    <span class="badge bg-secondary-soft text-secondary px-3 py-2 rounded-pill mb-3">Market Verticals</span>
+                    <h2 class="fw-bold mb-4">Industries We <span class="text-secondary">Specialize</span> In</h2>
+                    <p class="text-muted lead">Our service offerings are aligned to a broad spectrum of industry segments and flexible to meet unique requirements.</p>
+                    <ul class="list-unstyled mt-5">
+                        <li class="d-flex gap-3 mb-4">
+                            <div class="badge-icon bg-primary"><i class="bi bi-heart-pulse"></i></div>
+                            <div>
+                                <h5 class="mb-1 fw-bold">Healthcare</h5>
+                                <p class="small text-muted">25+ years experience in EHR/EMR and healthcare IT revolution.</p>
+                            </div>
+                        </li>
+                        <li class="d-flex gap-3 mb-4">
+                            <div class="badge-icon bg-success"><i class="bi bi-bank"></i></div>
+                            <div>
+                                <h5 class="mb-1 fw-bold">Financial Services</h5>
+                                <p class="small text-muted">Next-gen banking solutions for the mobile age and efficiency.</p>
+                            </div>
+                        </li>
+                        <li class="d-flex gap-3">
+                            <div class="badge-icon bg-info"><i class="bi bi-gear"></i></div>
+                            <div>
+                                <h5 class="mb-1 fw-bold">Manufacturing</h5>
+                                <p class="small text-muted">Value-added projects designed for complex manufacturing workflows.</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-7" data-aos="fade-left">
+                    <div class="row g-3">
+                        <div class="col-6">
+                            <img src="https://images.unsplash.com/photo-1576091160550-2173dba999ef?q=80&w=1470&auto=format&fit=crop" class="img-fluid rounded-4 shadow-sm mb-3" alt="Healthcare">
+                            <img src="https://images.unsplash.com/photo-1554224155-1696413565d3?q=80&w=1470&auto=format&fit=crop" class="img-fluid rounded-4 shadow-sm" alt="Finance">
+                        </div>
+                        <div class="col-6 pt-5">
+                            <img src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?q=80&w=1470&auto=format&fit=crop" class="img-fluid rounded-4 shadow-sm mb-3" alt="Manufacturing">
+                            <div class="bg-primary p-4 rounded-4 text-white text-center d-flex flex-column justify-content-center" style="min-height: 200px;">
+                                <h3 class="fw-bold">15+</h3>
+                                <p class="mb-0 small">Niche Sectors Served</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact & Presence Section -->
+    <section id="contact" class="bg-dark text-white py-5 section-padding position-relative overflow-hidden">
+        <div class="container py-5 z-1 position-relative">
+            <div class="row g-5">
+                <div class="col-lg-5" data-aos="fade-up">
+                    <h2 class="fw-bold mb-4 text-white">Let's Discuss Your <span class="text-primary-gradient">Next Project</span></h2>
+                    <p class="text-light opacity-75 mb-5">We are ready to provide agile and reliable IT services tailored to your needs. Reach out to our global offices today.</p>
+                    
+                    <div class="office-box mb-4">
+                        <h5 class="text-primary mb-3 fw-bold"><i class="bi bi-geo-alt me-2"></i> US Office</h5>
+                        <p class="small text-light opacity-75 mb-0">6775 W Firebird Dr, Glendale, AZ 85308, USA</p>
+                    </div>
+
+                    <div class="office-box mb-5">
+                        <h5 class="text-success mb-3 fw-bold"><i class="bi bi-geo-alt me-2"></i> India Office</h5>
+                        <p class="small text-light opacity-75 mb-1">WiMoKu PVT LTD, 42/2166[B1], Chundanal Monarch,</p>
+                        <p class="small text-light opacity-75 mb-1">K.K Padmanabhan Road, Ernakulam - 682018, Kerala, INDIA</p>
+                        <p class="small text-light opacity-75">Ph: +91 484 6066695 | Mob: +91 9847046695</p>
+                    </div>
+
+                    <div class="social-links d-flex gap-3">
+                        <a href="#" class="social-btn"><i class="bi bi-linkedin"></i></a>
+                        <a href="#" class="social-btn"><i class="bi bi-twitter-x"></i></a>
+                        <a href="#" class="social-btn"><i class="bi bi-facebook"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-7" data-aos="fade-up" data-aos-delay="200">
+                    <div class="glass-card p-5 rounded-4 shadow">
+                        <form id="contactForm">
+                            <div class="row g-3">
+                                <div class="col-md-6">
+                                    <div class="form-floating text-dark">
+                                        <input type="text" class="form-control" id="uName" placeholder="Full Name" required>
+                                        <label for="uName">Full Name</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-floating text-dark">
+                                        <input type="email" class="form-control" id="uEmail" placeholder="Email Address" required>
+                                        <label for="uEmail">Email Address</label>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="form-floating text-dark">
+                                        <input type="text" class="form-control" id="uSubject" placeholder="Subject">
+                                        <label for="uSubject">Subject</label>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="form-floating text-dark">
+                                        <textarea class="form-control" placeholder="Your Message" id="uMessage" style="height: 150px"></textarea>
+                                        <label for="uMessage">Message</label>
+                                    </div>
+                                </div>
+                                <div class="col-12 mt-4">
+                                    <button type="submit" class="btn btn-primary btn-lg w-100 rounded-pill py-3 shadow">Send Message</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bg-gradient-shapes">
+             <div class="grad-shape shape-1"></div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-black text-white py-4 border-top border-secondary">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6 text-center text-md-start">
+                    <div class="footer-links mb-3">
+                        <a href="index.html" class="text-white text-decoration-none me-3 small opacity-75">Home</a>
+                        <a href="about.html" class="text-white text-decoration-none me-3 small opacity-75">About</a>
+                        <a href="staffing-services.html" class="text-white text-decoration-none me-3 small opacity-75">Staffing</a>
+                        <a href="it-service.html" class="text-white text-decoration-none me-3 small opacity-75">IT Service</a>
+                        <a href="careers.html" class="text-white text-decoration-none small opacity-75">Careers</a>
+                    </div>
+                    <p class="small mb-0 opacity-50">&copy; 2026 Angion Systems LLC. All rights reserved.</p>
+                </div>
+                <div class="col-md-6 text-center text-md-end mt-3 mt-md-0">
+                    <ul class="list-inline mb-0 small opacity-50">
+                        <li class="list-inline-item"><a href="#" class="text-white text-decoration-none">Privacy Policy</a></li>
+                        <li class="list-inline-item mx-2">|</li>
+                        <li class="list-inline-item"><a href="#" class="text-white text-decoration-none">Terms of Service</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap 5 JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- AOS Animation JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- Custom JS -->
+    <script src="js/app.js"></script>
+    <script>
+        AOS.init({
+            duration: 800,
+            easing: 'ease-in-out',
+            once: true
+        });
+
+        // Navbar Scroll Effect
+        window.addEventListener('scroll', function() {
+            if (window.scrollY > 50) {
+                document.getElementById('navbar-main').classList.add('navbar-scrolled');
+            } else {
+                document.getElementById('navbar-main').classList.remove('navbar-scrolled');
+            }
+        });
+    </script>
+</body>
+</html>
